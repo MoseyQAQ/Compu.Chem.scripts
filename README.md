@@ -14,6 +14,7 @@ Options:
 * -m: specify the method used, 'IDPP' and 'Li' are supported.
 * -n: number of structures being generated.
 
+---
 ### 2. bader.py
 > Description: A script for export the result of bader chage analysis (ACF.dat) to a .xsd file. This script is based on ASE package.
 
@@ -21,4 +22,4 @@ Options:
 ```bash
 python3 bader.py 
 ```
-__A detailed tutorial of this script may be found in: [https://github.com/MoseyQAQ/Compu.Chem.scripts/tree/main](https://github.com/MoseyQAQ/Compu.Chem.scripts/tree/main)__
+__A detailed tutorial of this script may be found in: [http://www.aleeqaq.cc/posts/2023/blog-6](http://www.aleeqaq.cc/posts/2023/blog-6)__
