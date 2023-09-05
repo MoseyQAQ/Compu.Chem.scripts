@@ -35,12 +35,12 @@ free_energy=intergral(x,y)
 energy_barrier = max(free_energy)-free_energy[0]
 
 with open(output_file,"w") as f:
-    f.write(f"Energy_Barrier,{energy_barrier}.\n")
+    f.write(f"Energy_Barrier,{energy_barrier} eV.\n")
     f.write(f"CV,lambad,Free_Energy\n")
     for i in range(len(free_energy)):
         f.write(f"{x[i]},{y[i]},{free_energy[i]}\n")
 print(f"{len(free_energy)} frames are found.")
-print(f"Energy Barrier: {energy_barrier}.\nThe data has been written to the {output_file}.")
+print(f"Energy Barrier: {energy_barrier} eV.\nThe data has been written to the {output_file}.")
 
 if PLOT == True:
     import matplotlib.pyplot as plt

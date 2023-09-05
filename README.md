@@ -34,7 +34,7 @@ __A detailed tutorial of this script may be found in: [http://www.aleeqaq.cc/pos
 REPORT
 > python3 slow-growth.py
 3910 frames are found.
-Energy Barrier: 1.5107054134975018.
+Energy Barrier: 1.5107054134975018 eV.
 The data has been written to the slow-growth.csv.
 > ls 
 slow-growth.csv
