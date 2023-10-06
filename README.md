@@ -15,13 +15,24 @@ Options:
 * -n: number of structures being generated.
 
 ---
-## 2. bader.py
+## 2. bader_new.py
 > Description: A script for exporting the result of bader chage analysis (ACF.dat) to a .xsd file. This script is based on ASE package.
+
+Required input files:
+* CONTCAR
+* POTCAR
+* ACF.dat
 
 ### Usage:
 ```bash
-python3 bader.py 
+> python3 bader_new.py 
+ZVAL = [X, X, X]
+ATOM = [Y, Y, Y]
+Please Check!
+The average charge = [Z, Z, Z]
 ```
+The charge information obtained from Bader analysis will be written to a Materials Studio (.xsd) file automatically. Meanwhile, a "bader_data.csv" will be generated, which contains the charge information of each atom and the average charge of each element.
+
 __A detailed tutorial of this script may be found in: [http://www.aleeqaq.cc/posts/2023/blog-6](http://www.aleeqaq.cc/posts/2023/blog-6)__
 
 -- -
