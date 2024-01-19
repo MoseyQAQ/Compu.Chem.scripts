@@ -57,3 +57,8 @@ Options in this script:
 * input_file = "REPORT" (The name of the input file. Only the VASP format "REPORT" file is supported)
 * output_file = "slow-growth.csv"  (The name of the output file)
 * output_img ="slow-growth.png"    (The name of the output image. This option only works when "PLOT = True")
+  
+-- -
+
+## 4. parsedpgen.py
+> Description: For parsing the log file of the dpgen (dpgen.log), and visualize the data.
